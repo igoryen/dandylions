@@ -65,3 +65,11 @@ nav {
   top: 545px;
   left: 878px;
 }
+
+#rightcol {
+  width: 400px;
+  min-height: 1312px;
+  position: absolute;
+  top: 0px;
+  left: 1200px;
+}
