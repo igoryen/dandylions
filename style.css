@@ -17,10 +17,11 @@ table {
 #banner{
   width: 1200px;
   height: 500px;
-  position: absolute;
   // 3
+  position: absolute;
   top: 0px;
   left: 0px;
+  
   border: solid 1px blue;
   background-image: url("img/dandelions_top.png");
   background-repeat: no-repeat;
@@ -28,10 +29,15 @@ table {
 }
 
 h1 {
-  position: relative;
+  position: relative; // 4
   top: 24px;
   left: 7px;
   border: solid 1px blue;
+  font-family: serif, "Arial Rounded MT Bold";
+  font-stretch:extra-expanded;
+  font-variant-caps:small-caps;
+  font-size: 50px;
+  color: yellow;
 }
 
 h2 {
@@ -39,6 +45,11 @@ h2 {
   top: 24px;
   left: 201px;
   border: solid 1px blue;
+  font-family: serif, "Arial Rounded MT Bold";
+  font-stretch:extra-expanded;
+  font-variant-caps:small-caps;
+  font-size: 30px;
+  color: orange;
 }
 
 nav {
@@ -51,6 +62,11 @@ nav {
   background-image: url("img/dandelions_bottom.png");
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: serif, "Arial Rounded MT Bold";
+  font-stretch:extra-expanded;
+  font-variant-caps:small-caps;
+  font-size: 30px;
+  color: orange;
 }
 
 #column1{
@@ -60,6 +76,8 @@ nav {
   top: 545px;
   left: 0px;
   border: solid 1px blue;
+  margin: 5px;
+  padding: 5px;
 }
 
 #column2{
@@ -69,6 +87,8 @@ nav {
   top: 545px;
   left: 412px;
   border: solid 1px blue;
+  margin: 5px;
+  padding: 5px;
 }
 
 #column3{
@@ -78,6 +98,8 @@ nav {
   top: 545px;
   left: 878px;
   border: solid 1px blue;
+  margin: 5px;
+  padding: 5px;
 }
 
 #rightcol {
@@ -92,9 +114,33 @@ nav {
 #bigflower, #seededflower, #closeup, #field{
   width: 400px;
   height: 328px;
-  position: relative;
   // 3
+  position: relative;
   top: 0px;
   left: 0px;
   border: solid 1px blue;
+}
+
+#bigflower{
+  background-image: url("img/bigflower.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+#seededflower{
+  background-image: url("img/seeded.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+#closeup{
+  background-image: url("img/closeup.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+#field{
+  background-image: url("img/dandelions_00.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
 }
