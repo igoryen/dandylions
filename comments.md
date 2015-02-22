@@ -15,3 +15,12 @@ gives the error
 
 down 500 pixels from the top
 
+3
+--
+	top: 0px;  
+	left: 0px;
+
+place the box at the upper-left corner of the screen
+
+
+
