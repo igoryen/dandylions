@@ -91,6 +91,10 @@ nav {
   padding: 5px;
 }
 
+#column2 img {
+  float: right;
+}
+
 #column3{
   width: 322px;
   min-height: 700px;
