@@ -41,3 +41,27 @@ nav {
   top: 500px; // 2
   left: 0px;
 }
+
+#column1{
+  width: 412px;
+  min-height: 700px;
+  position: absolute;
+  top: 545px;
+  left: 0px;
+}
+
+#column2{
+  width: 466px;
+  min-height: 700px;
+  position: absolute;
+  top: 545px;
+  left: 412px;
+}
+
+#column3{
+  width: 322px;
+  min-height: 700px;
+  position: absolute;
+  top: 545px;
+  left: 878px;
+}
