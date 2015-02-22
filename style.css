@@ -20,18 +20,21 @@ table {
   position: absolute;
   top: 0px;
   left: 0px;
+  border: solid 1px blue;
 }
 
 h1 {
   position: relative;
   top: 24px;
   left: 7px;
+  border: solid 1px blue;
 }
 
 h2 {
   position: relative;
   top: 24px;
   left: 201px;
+  border: solid 1px blue;
 }
 
 nav {
@@ -40,6 +43,7 @@ nav {
   position: absolute;
   top: 500px; // 2
   left: 0px;
+  border: solid 1px blue;
 }
 
 #column1{
@@ -48,6 +52,7 @@ nav {
   position: absolute;
   top: 545px;
   left: 0px;
+  border: solid 1px blue;
 }
 
 #column2{
@@ -56,6 +61,7 @@ nav {
   position: absolute;
   top: 545px;
   left: 412px;
+  border: solid 1px blue;
 }
 
 #column3{
@@ -64,6 +70,7 @@ nav {
   position: absolute;
   top: 545px;
   left: 878px;
+  border: solid 1px blue;
 }
 
 #rightcol {
@@ -72,4 +79,5 @@ nav {
   position: absolute;
   top: 0px;
   left: 1200px;
+  border: solid 1px blue;
 }
