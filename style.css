@@ -22,6 +22,9 @@ table {
   top: 0px;
   left: 0px;
   border: solid 1px blue;
+  background-image: url("img/dandelions_top.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
@@ -45,6 +48,9 @@ nav {
   top: 500px; // 2
   left: 0px;
   border: solid 1px blue;
+  background-image: url("img/dandelions_bottom.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #column1{
