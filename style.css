@@ -22,3 +22,14 @@ table {
   left: 0px;
 }
 
+h1 {
+  position: relative;
+  top: 24px;
+  left: 7px;
+}
+
+h2 {
+  position: relative;
+  top: 24px;
+  left: 201px;
+}
