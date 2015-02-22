@@ -13,3 +13,12 @@ table {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#banner{
+  width: 1200px;
+  height: 500px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
