@@ -153,7 +153,10 @@ nav {
   top: 1300px;
   left: 0px;
   width: 100%;
-
+  background-color: #bbf0f9;
+  -moz-column-count: 4;
+  -webkit-column-count: 4;
+  column-count: 4;
 }
 
 #columns h1{
