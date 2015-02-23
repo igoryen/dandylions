@@ -154,9 +154,14 @@ nav {
   left: 0px;
   width: 100%;
   background-color: #bbf0f9;
+  
   -moz-column-count: 4;
   -webkit-column-count: 4;
   column-count: 4;
+  
+  -moz-column-rule: 4px dashed blue;
+  -webkit-column-rule: 4px dashed blue;
+  column-rule: 4px dashed blue;
 }
 
 #columns h1{
